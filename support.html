@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Hilfe und Kontakt zu Smart Room Scan.">
+<title>Support – Smart Room Scan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a href="index.html">Smart Room Scan</a><a href="support.html">Support</a><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a></nav>
+<main>
+<h1>Support</h1>
+<p class="lead">Fragen, Fehler oder Wünsche? Schreib mir:</p>
+<p><a href="mailto:smartroomscan@nintos.de">smartroomscan@nintos.de</a></p>
+<p class="muted">Bitte schicke keine Scans, Grundrisse oder Screenshots deiner Wohnung. Beschreibe das Problem, dein Gerät und die iOS-Version. Ich antworte so schnell ich kann.</p>
+<h2>Häufige Fragen</h2>
+<dl>
+<dt>Welches Gerät brauche ich zum Scannen?</dt>
+<dd>Ein iPhone oder iPad mit LiDAR-Sensor, das sind die Pro-Modelle. Ohne LiDAR kannst du Projekte ansehen, bearbeiten und exportieren, zum Beispiel das Beispielprojekt aus der App.</dd>
+<dt>Wie scanne ich mehrere Räume?</dt>
+<dd>Scanne die Räume einer Etage nacheinander, ohne die Ansicht zu verlassen. Danach bestätigst du, welche Räume zu welcher Etage gehören. Gute Beleuchtung und offene Türen helfen.</dd>
+<dt>Wie bringe ich den Grundriss in Home Assistant?</dt>
+<dd>Wähle im Export das Profil „ha-floorplan“ oder „ha-picture-elements“, kopiere den Ordner <code>floorplan/</code> nach <code>/config/www/floorplan/</code> und füge die Karte aus <code>lovelace/</code> in dein Dashboard ein. Die beiliegende Anleitung führt dich Schritt für Schritt.</dd>
+<dt>Warum soll ich Home Assistant nicht öffentlich ins Internet stellen?</dt>
+<dd>Dateien in <code>/config/www/</code> liefert Home Assistant ohne Anmeldung aus. Ist deine Instanz offen erreichbar, kann jeder den Grundriss abrufen. Nutze ein VPN, zum Beispiel WireGuard oder Tailscale.</dd>
+<dt>Wie sichere ich meine Projekte oder ziehe auf ein neues Gerät um?</dt>
+<dd>Halte in der Projektliste ein Projekt gedrückt oder wische nach links und wähle „Sichern“. Die Datei <code>.smartroomscan</code> kannst du auf dem anderen Gerät über „Importieren“ öffnen. Sicherung und Import sind immer kostenlos.</dd>
+<dt>Wie funktioniert der Kauf von Pro?</dt>
+<dd>Pro ist ein Einmalkauf ohne Abo. Du kannst ihn in den Einstellungen oder im Kaufbildschirm freischalten und mit „Käufe wiederherstellen“ auf einem anderen Gerät mit derselben Apple-ID zurückholen. Mit Familienfreigabe gilt er für deine Familie.</dd>
+<dt>Meine Projekte sind ohne Pro gesperrt?</dt>
+<dd>Nein. Bestehende Projekte bleiben immer offen, bearbeitbar und sicherbar. Die Grenzen betreffen nur neue Projekte, weitere Etagen und einzelne Export-Profile.</dd>
+<dt>Wie schütze ich die App vor fremder Einsicht?</dt>
+<dd>In den Einstellungen kannst du eine App-Sperre mit Face ID oder Gerätecode einschalten. Die Unschärfe im App-Umschalter ist standardmäßig aktiv.</dd>
+</dl>
+</main>
+<footer>Smart Room Scan · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></footer>
+</body>
+</html>
